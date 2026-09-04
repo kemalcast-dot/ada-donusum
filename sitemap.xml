@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Domain alındıktan sonra example.com adresleri gerçek domain ile değiştirilecek. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/ada-bazli-kentsel-donusum.html</loc></url>
+  <url><loc>https://example.com/zeytinburnu-kentsel-donusum.html</loc></url>
+  <url><loc>https://example.com/bakirkoy-kentsel-donusum.html</loc></url>
+  <url><loc>https://example.com/bahcelievler-kentsel-donusum.html</loc></url>
+  <url><loc>https://example.com/gungoren-kentsel-donusum.html</loc></url>
+</urlset>
