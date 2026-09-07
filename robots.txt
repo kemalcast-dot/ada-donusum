@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Domain satın alındıktan sonra aşağıdaki adres gerçek domain ile değiştirilecek:
-# Sitemap: https://www.ornekdomain.com/sitemap.xml
+Sitemap: https://adabazlidonusum.com.tr/sitemap.xml
