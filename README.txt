@@ -18,3 +18,9 @@ Bu surumde:
 eklendi.
 
 Google Analytics kodu bu pakete eklenmedi. Measurement ID alindiktan sonra ayrica eklenebilir.
+
+
+GOOGLE ANALYTICS 4
+- Measurement ID: G-7XN7LRRGBN
+- GA4 etiketi 9 HTML sayfasinin tamaminda yer alir.
+- Telefon tiklamalari phone_click, WhatsApp tiklamalari whatsapp_click olayi olarak olculur.
