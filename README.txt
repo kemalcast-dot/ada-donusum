@@ -1,20 +1,20 @@
-ADA BAZLI KENTSEL DONUSUM - ILK SURUM
+ADA BAZLI DONUSUM - SEO GUNCEL SURUM
 
-Dosyalar:
-- index.html: ana sayfa
-- ada-bazli-kentsel-donusum.html: rehber sayfasi
-- zeytinburnu-kentsel-donusum.html
-- bakirkoy-kentsel-donusum.html
-- bahcelievler-kentsel-donusum.html
-- gungoren-kentsel-donusum.html
-- styles.css
-- script.js
-- robots.txt
-- sitemap.xml
+GitHub'a yukleme:
+1) Bu klasordeki tum dosyalari repository'nin kok dizinine yukleyin.
+2) Ayni isimli mevcut dosyalarin uzerine yazin.
+3) Yeni eklenen rehber sayfalari da yukleyin.
+4) Commit changes ile kaydedin.
+5) https://adabazlidonusum.com.tr/ ve /sitemap.xml adreslerini kontrol edin.
 
-Yayinlamadan once:
-1. Domain secin.
-2. sitemap.xml icindeki example.com adreslerini domaininizle degistirin.
-3. robots.txt dosyasina gercek sitemap adresini yazin.
-4. Hibe/kredi ve teslim suresiyle ilgili tum ticari/hukuki taahhutleri sozlesmenizle uyumlu hale getirin.
-5. Iletisim telefon ve WhatsApp uzerinden dogrudan saglanir; form bulunmaz.
+Bu surumde:
+- Canonical etiketleri
+- Open Graph meta etiketleri
+- JSON-LD yapilandirilmis veri
+- Ozgun ilce icerikleri
+- SSS bolumu
+- 3 yeni malik rehberi
+- Guncel sitemap.xml ve robots.txt
+eklendi.
+
+Google Analytics kodu bu pakete eklenmedi. Measurement ID alindiktan sonra ayrica eklenebilir.

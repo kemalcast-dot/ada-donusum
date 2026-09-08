@@ -11,7 +11,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--bg);line-height:1.6}
+body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:var(--bg);line-height:1.65}
 a{color:inherit}
 .container{width:min(1120px,calc(100% - 32px));margin:auto}
 .topbar{background:#0f2b1d;color:#fff;font-size:.92rem;padding:8px 0;text-align:center}
@@ -37,12 +37,15 @@ h1{font-size:clamp(2.35rem,6vw,4.6rem);line-height:1.02;letter-spacing:-.045em;m
 .stat{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
 .stat strong{display:block;font-size:1.35rem;color:var(--accent-dark)}
 section{padding:64px 0}
-.section-head{max-width:760px;margin-bottom:30px}
+.section-head{max-width:780px;margin-bottom:30px}
 .section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.12;margin:0 0 12px;letter-spacing:-.025em}
 .section-head p{color:var(--muted);margin:0}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
 .card h3{margin-top:0}.card p{color:var(--muted);margin-bottom:0}
+.card-link{text-decoration:none;display:block;height:100%;transition:transform .15s ease,box-shadow .15s ease}
+.card-link:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(27,50,36,.08)}
 .process{counter-reset:step;display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
 .step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px;position:relative}
 .step:before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;margin-bottom:12px}
@@ -55,6 +58,24 @@ section{padding:64px 0}
 footer{background:#0b1f15;color:#cfe0d5;padding:34px 0;font-size:.9rem}
 footer a{color:#fff}
 .page-hero{padding:58px 0 34px;background:#eef5f0}.page-hero h1{font-size:clamp(2rem,5vw,3.6rem)}
-.content{max-width:860px}.content h2{margin-top:38px}.content p,.content li{color:#3f4c44}
-@media(max-width:900px){.hero-grid,.compare,.contact-grid{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.grid-3{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.navlinks a:not(.btn){display:none}}
+.content{max-width:900px}.content h2{margin-top:40px}.content h3{margin-top:28px}.content p,.content li{color:#3f4c44}
+.breadcrumbs{font-size:.88rem;color:var(--muted);margin-bottom:18px}
+.breadcrumbs a{text-decoration:none;color:var(--accent-dark)}
+.faq{display:grid;gap:12px}
+.faq details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:0 18px}
+.faq summary{cursor:pointer;font-weight:800;padding:18px 34px 18px 0;position:relative}
+.faq summary::after{content:"+";position:absolute;right:0;top:14px;font-size:1.4rem;color:var(--accent)}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:0 0 18px;color:var(--muted)}
+.info-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.info-strip .card strong{display:block;color:var(--accent-dark);font-size:1.05rem;margin-bottom:6px}
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:16px;background:#fff}
+table{width:100%;border-collapse:collapse;min-width:620px}
+th,td{text-align:left;padding:16px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:#eef5f0}
+tr:last-child td{border-bottom:0}
+.inline-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.muted{color:var(--muted)}
+.small{font-size:.9rem}
+@media(max-width:900px){.hero-grid,.compare,.contact-grid,.grid-2{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.grid-3,.info-strip{grid-template-columns:1fr}.process{grid-template-columns:1fr 1fr}.navlinks a:not(.btn){display:none}}
 @media(max-width:560px){.stats,.process{grid-template-columns:1fr}.hero{padding-top:54px}.nav{min-height:64px}.btn{width:100%}.nav .btn{width:auto;padding:10px 12px}.hero-actions{display:grid}.contact-grid .btn{width:100%}}
